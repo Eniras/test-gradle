@@ -18,7 +18,7 @@ fi'''
 
     stage('Stage 3') {
       steps {
-        sh '''for i in \'cat/tmp/orsys\'
+        sh '''for i in "cat /tmp/orsys"
 do
 ls -il $i
 done'''
