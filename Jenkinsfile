@@ -10,7 +10,8 @@ pipeline {
     stage('stage 2') {
       steps {
         sh '''if test \'grep -c orsys /etc/passwd\' -ne 0 then 
-find / -user orsys > /tmp/orsys'''
+find / -user orsys > /tmp/orsys
+nano /home/orsys/abcuser'''
       }
     }
 
