@@ -20,7 +20,7 @@ fi'''
       steps {
         sh '''for i in \'cat/tmp/orsys\'
 do
-ls-il $i
+ls -il $i
 done'''
       }
     }
